@@ -1,12 +1,10 @@
 <template>
   <div class="MapPage">
-    <div>Id</div>
-    <!-- <FloorSB class="fbar"/> -->
+    
+    
   <div class=upperBar>
       <h2>Lantai {{$route.params.Id}}</h2>
-    <!-- <DropDRoomList/> -->
   </div>
-      <!-- <FloorList class="f-list d-flex "/>  -->
     <div>
       <b-img src="../assets/lantai_7.png" fluid alt="Responsive image"></b-img>
     </div>
@@ -20,11 +18,8 @@
 // import FloorSB from '@/components/FloorSB.vue'
 // import DropDRoomList from '@/components/DropDRoomList.vue'
 export default {
-  name: 'MapPage',
+  name: 'MapPageView',
   components: {
- 
-    // FloorSB,
-    // DropDRoomList,
   },
   data() {
       return { 
@@ -65,7 +60,6 @@ export default {
   //  }
 }
 </script>
-
 <style scoped>
 
 .MapPage{

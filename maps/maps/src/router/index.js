@@ -17,7 +17,7 @@ const routes = [
     component: ExploreView
   },
   {
-    path: '/mappage/:Id',
+    path: '/mappage/:id',
     name: 'mappage',
     component: MapPageView
   },

@@ -15,12 +15,6 @@
           </router-link>
        </div>
 
-
-   
-         
-
-
-
         <!-- <div v-for="item in room" :key="item.Id" class="card border-0 cardSpace" style="width: 18rem;">
       
           <li class="list-group-item bg-light">Lantai {{item.id}} </li>
@@ -30,10 +24,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import FloorList from '@/components/FloorList.vue'
-// import FloorSB from '@/components/FloorSB.vue'
-// import ruangan from  '@/assets/ruangan.json'
+
 export default {
   name: 'ExploreView',
   components: {
@@ -43,14 +34,6 @@ export default {
   data() {
       return { 
         room : null,
-        // Lantai: [{Id: "Lantai 1"},
-        //         {Id:  "Lantai 2"},
-        //         {Id:  "Lantai 3"},
-        //         {Id:  "Lantai 4"},
-        //         {Id:  "Lantai 5"},
-        //         {Id:  "Lantai 6"},
-        //         {Id:  "Lantai 7"},
-        //         {Id:  "Basement"}],
          Lantai: [{Id: "1",
                  ruangan:["Lift", "Administrasi, "] },
                 {Id:  "2",
@@ -87,10 +70,9 @@ export default {
 {
         if(lantai.ruangan[i].indexOf(this.search) != -1)
         {
-             console.log(lantai.ruangan[i])
+             console.log(lantai.Id)
             return(lantai.ruangan[i]);
-             
-
+            
         }
 } 
       // return lantai.Id.match(this.search);
