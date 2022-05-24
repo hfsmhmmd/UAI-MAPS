@@ -15,7 +15,7 @@
 
 <script>
 // @ is an alias to /src
-
+//hello
 // import FloorList from '@/components/FloorList.vue'
 // import FloorSB from '@/components/FloorSB.vue'
 // import DropDRoomList from '@/components/DropDRoomList.vue'
