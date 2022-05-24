@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ExploreView from '../views/ExploreView.vue'
+import MapPageView from '../views/MapPageView.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     path: '/explore',
     name: 'explore',
     component: ExploreView
+  },
+  {
+    path: '/mappage/:Id',
+    name: 'mappage',
+    component: MapPageView
   },
   {
     path: '/about',
