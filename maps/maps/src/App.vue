@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-        <ExploreView/>
+        <!-- <ExploreView/> -->
+      <nav>
+     
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> | -->
+      <router-link to ="/explore"> Explore Lantai</router-link> |
+      <router-link to ="/mappage"> Halaman Peta</router-link>
+    </nav>
+    <router-view/>
  
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import ExploreView from './views/ExploreView.vue'
+// import ExploreView from './views/ExploreView.vue'
 export default {
   name: 'App',
   components: {
-    ExploreView
+    // ExploreView
   }
 }
 </script>
