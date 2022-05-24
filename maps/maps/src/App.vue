@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <ExploreView/>
+        <ExploreView/>
+ 
   </div>
 </template>
 
@@ -16,12 +17,24 @@ export default {
 </script>
 
 <style>
+html, body, #app #app>div{
+  height: 100%;
+}
+
+
 #app {
+  display: flex;
+   flex-direction: column;
+ 
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #0E47A1;
+  /* height: 100%; */
+  border: 5px solid greenyellow;
 }
+
 </style>
