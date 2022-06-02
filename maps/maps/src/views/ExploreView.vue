@@ -15,10 +15,11 @@
           </router-link>
        </div>
 
+  
   </div>
 </template>
 
-<script>
+<script >
 
 export default {
   name: 'ExploreView',
@@ -106,9 +107,10 @@ export default {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-
   align-items: center;
+  background-color: whitesmoke;
 }
+
 .fbar{
   margin-bottom: 20px;
   min-width: 93%;
