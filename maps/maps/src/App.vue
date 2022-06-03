@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 #app{
-   flex-direction: column-reverse;  
+   flex-direction: column;  
 }
 
 .rout{
